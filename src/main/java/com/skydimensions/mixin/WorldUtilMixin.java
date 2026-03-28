@@ -18,25 +18,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-/**
- * Mixin into {@link de.melanx.skyblockbuilder.util.WorldUtil}.
- * <p>
- * Targets {@code teleportToIsland(ServerPlayer, Team)} which is the single
- * method ALL teleportation in SkyblockBuilder routes through:
- * <ul>
- *   <li>{@code /skyblock spawn} and {@code /sky spawn} — SpawnCommand</li>
- *   <li>{@code /skyblock home} and {@code /sky home} — HomeCommand</li>
- *   <li>{@code /skyblock visit} and {@code /sky visit} — VisitCommand</li>
- *   <li>SkyGUIs TeleportToTeam handler (spawn/home/visit buttons)</li>
- *   <li>EventListener.onPlayerJoin — first join and teamless rejoin</li>
- *   <li>EventListener.onRespawn — death respawn</li>
- *   <li>Invite acceptance teleport</li>
- * </ul>
- * <p>
- * Strategy: When the target team {@code isSpawn()}, redirect the teleport to
- * {@code skydimensions:spawn} instead of the configured level (overworld).
- * Non-spawn team teleports pass through unmodified — islands stay in the overworld.
- */
 @Mixin(targets = "de.melanx.skyblockbuilder.util.WorldUtil", remap = false)
 public class WorldUtilMixin {
 
