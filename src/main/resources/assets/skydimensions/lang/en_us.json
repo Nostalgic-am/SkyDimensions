@@ -1,0 +1,19 @@
+{
+  "skydimensions.dimension.spawn": "Spawn Dimension",
+  "skydimensions.command.status.title": "=== SkyDimensions Status ===",
+  "skydimensions.command.status.enabled": "Enabled: %s",
+  "skydimensions.command.status.loaded": "Dimension Loaded: %s",
+  "skydimensions.command.status.players": "Players in Spawn: %s",
+  "skydimensions.command.status.skyguis": "Sky GUIs Loaded: %s",
+  "skydimensions.command.tp.success": "Teleported to spawn dimension.",
+  "skydimensions.command.tp.fail": "Failed to teleport. Is the spawn dimension loaded?",
+  "skydimensions.command.tp.disabled": "SkyDimensions is currently disabled.",
+  "skydimensions.command.tp.player_only": "This command must be run by a player.",
+  "skydimensions.info.title": "=== SkyDimensions Info ===",
+  "skydimensions.info.description": "This addon separates the spawn island into its own dimension.",
+  "skydimensions.info.commands": "Key Commands:",
+  "skydimensions.info.spawn": "/skyblock spawn - Go to spawn island",
+  "skydimensions.info.home": "/skyblock home - Go to your team island",
+  "skydimensions.info.create": "/skyblock create <name> - Create a new team",
+  "skydimensions.info.skyguis": "Press L to open the team management GUI."
+}
