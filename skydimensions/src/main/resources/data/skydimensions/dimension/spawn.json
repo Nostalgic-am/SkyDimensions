@@ -1,0 +1,12 @@
+{
+  "type": "skydimensions:spawn",
+  "generator": {
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "minecraft:the_void"
+    },
+    "settings": "minecraft:overworld",
+    "dimension": "minecraft:overworld",
+    "type": "skyblockbuilder:noise_based"
+  }
+}
