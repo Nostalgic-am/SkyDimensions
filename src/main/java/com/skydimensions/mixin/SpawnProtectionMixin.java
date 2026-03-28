@@ -11,9 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 /**
  * Makes SB's spawn protection apply to skydimensions:spawn.
- *
- * SB checks {@code SpawnConfig.spawnDimension == level.dimension()} in isOnSpawn(),
- * which won't match our dimension. This mixin adds our dimension to that check.
  */
 @Mixin(targets = "de.melanx.skyblockbuilder.SpawnProtectionEvents", remap = false)
 public class SpawnProtectionMixin {
