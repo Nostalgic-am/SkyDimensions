@@ -10,9 +10,6 @@ import net.neoforged.neoforge.common.ModConfigSpec;
  * NOTE: Mob spawning, damage, hunger, and healing protection are handled by
  * Skyblock Builder's spawn protection system. Configure those in
  * SB's config/skyblockbuilder/spawn.json5 (spawnProtectionRadius + spawnProtectionEvents).
- * <p>
- * Fixed time → dimension type JSON (data/skydimensions/dimension_type/spawn.json).
- * Weather → controlled by biome choice in dimension JSON (data/skydimensions/dimension/spawn.json).
  */
 public class SkyDimensionsConfig {
 
