@@ -6,14 +6,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 
-/**
- * Handles player events related to the spawn dimension.
- * <p>
- * The WorldUtilMixin handles teleportation redirects.
- * The SpawnProtectionMixin handles damage/hunger/mob protection.
- * Time is fixed via dimension type JSON.
- * Weather is controlled by biome choice in dimension JSON.
- * <p>
+/*
  * This handler logs dimension changes for debugging.
  */
 public class PlayerEventHandler {
