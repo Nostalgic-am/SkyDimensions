@@ -49,9 +49,9 @@ SkyDimensions extends SB's protection to the spawn dimension automatically.
 ---
 ## For Pack Developers
 
-SkyDimensions is designed to work out of the box. The spawn dimension is fully customizable via datapacks. Override the dimension JSON and dimension type JSON in your pack's `data/skydimensions/` folder. For reference on how this works [Skyblock Builder Wiki](https://wiki.chaotictrials.de/docs/wiki/skyblock-builder/packdev/custom-dimensions)
+SkyDimensions is designed to work out of the box. The spawn dimension is fully customizable via datapacks. Override the dimension JSON and dimension type JSON in your pack's `data/skydimensions/` folder. For reference on how this works [Skyblock Builder Wiki](https://wiki.chaotictrials.de/docs/1.21.x/wiki/skyblock-builder/packdev/custom-dimensions)
 
-The spawn island template can be customized via Skyblock Builder as shown [here](https://wiki.chaotictrials.de/docs/wiki/skyblock-builder/packdev/create-templates/)
+The spawn island template can be customized via Skyblock Builder as shown [here](https://wiki.chaotictrials.de/docs/1.21.x/wiki/skyblock-builder/packdev/create-templates/)
 
 ---
 
