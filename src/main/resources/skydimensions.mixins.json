@@ -5,7 +5,8 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "WorldUtilMixin",
-    "SpawnProtectionMixin"
+    "SpawnProtectionMixin",
+    "SpawnIslandPlacementMixin"
   ],
   "client": [],
   "injectors": {

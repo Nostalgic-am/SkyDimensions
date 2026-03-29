@@ -18,9 +18,6 @@ public class SkyDimensionsConfig {
     // Core
     public static final ModConfigSpec.BooleanValue ENABLED;
 
-    // Spawn Island
-    public static final ModConfigSpec.BooleanValue USE_SKYBLOCK_BUILDER_TEMPLATE;
-
     // Integration
     public static final ModConfigSpec.BooleanValue AUTO_CONFIGURE_SKYBLOCK_BUILDER;
     public static final ModConfigSpec.BooleanValue ENABLE_SKY_GUIS_COMPAT;
@@ -43,17 +40,6 @@ public class SkyDimensionsConfig {
                 .comment("Master toggle for the spawn dimension redirect.",
                         "When disabled, the mod does nothing and SB uses its default behavior.")
                 .define("enabled", true);
-
-        builder.pop();
-
-        // --- Spawn Island ---
-        builder.push("island");
-
-        USE_SKYBLOCK_BUILDER_TEMPLATE = builder
-                .comment("Use Skyblock Builder's configured spawn template for the spawn dimension.",
-                        "If true, SB's spawn island template will be placed in the spawn dimension.",
-                        "If false, the spawn dimension will be empty (place structures manually).")
-                .define("useSkyblockBuilderTemplate", true);
 
         builder.pop();
 
